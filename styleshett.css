@@ -1,9 +1,26 @@
-#canvas1 {
-    border: 5px solid black;
+body {
+    background-color: #323232;
+}
+h1 {
+    position: relative;
+    top: 5px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+.container {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 600px;
-    height: 600px;
+    background: whitesmoke;
+    border-top-style: dashed;
+    width: 97.5%;
+    height: 300px;
+    padding-left: 8px;
+    padding-right: 8px;
+    bottom: 0px;
+    display: flex;
+}
+p {
+    color: rgb(55, 55, 171);
+    font-weight: bolder;
+    font-size: 1.25rem
 }
