@@ -1,5 +1,8 @@
 body {
     background-color: #323232;
+    background-image: url("images/WhatsApp Image 2024-01-12 at 7.48.50 PM.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 h1 {
     position: relative;
@@ -12,15 +15,19 @@ h1 {
     position: absolute;
     background: whitesmoke;
     border-top-style: dashed;
-    width: 97.5%;
-    height: 300px;
+    width: 50%;
+    height: 96%;
     padding-left: 8px;
     padding-right: 8px;
-    bottom: 0px;
-    display: flex;
+    right: 0px;
+    display: block;
 }
 p {
-    color: rgb(55, 55, 171);
-    font-weight: bolder;
-    font-size: 1.25rem
+    position: relative;
+    margin-top: 2%;
+    font-weight: lighter;
+    font-size: 1.15rem;
+    color: rgb(92, 92, 92);
+    text-align: left;
 }
+
